@@ -6,7 +6,7 @@ Generate API docs for Clojure namespaces to include in GitHub repos.
 
 <hr>
 
-### [`generate-docs`](../../0.1.0/src/adzerk/clj_github_docs.clj#L100)
+### [`generate-docs`](../../0.1.1/src/adzerk/clj_github_docs.clj#L100)
 
 ```clojure
 (generate-docs ns out-dir src-dir tag ns-doc)
@@ -18,7 +18,7 @@ FIXME: document this
 
 <hr>
 
-### [`ns-docs`](../../0.1.0/src/adzerk/clj_github_docs.clj#L80)
+### [`ns-docs`](../../0.1.1/src/adzerk/clj_github_docs.clj#L80)
 
 ```clojure
 (ns-docs link-path ns-sym)
@@ -30,7 +30,7 @@ FIXME: document this
 
 <hr>
 
-### [`section`](../../0.1.0/src/adzerk/clj_github_docs.clj#L115)
+### [`section`](../../0.1.1/src/adzerk/clj_github_docs.clj#L115)
 
 ```clojure
 (section title & syms)
@@ -42,7 +42,7 @@ FIXME: document this
 
 <hr>
 
-### [`write-docs`](../../0.1.0/src/adzerk/clj_github_docs.clj#L118)
+### [`write-docs`](../../0.1.1/src/adzerk/clj_github_docs.clj#L118)
 
 ```clojure
 (write-docs & args)

@@ -113,7 +113,7 @@
                   (ns-docs ns)))))
 
 (defmacro section [title & syms]
-  `(~'section* ~title ~@(map (partial list 'quote) syms)))
+  `(#'section* ~title ~@(map (partial list 'quote) syms)))
 
 (defmacro write-docs [& args]
   (let [[{:keys [ns doc src out tag]} sections] (parse-args args)]

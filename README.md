@@ -18,7 +18,7 @@ be versioned with the code it documents.
 
 [](dependency)
 ```clojure
-[adzerk/clj-github-docs "0.1.0"] ;; latest release
+[adzerk/clj-github-docs "0.1.1"] ;; latest release
 ```
 [](/dependency)
 

@@ -7,7 +7,7 @@
   '[adzerk.bootlaces        :refer :all]
   '[adzerk.clj-github-docs  :refer :all])
 
-(def +version+ "0.1.0")
+(def +version+ "0.1.1")
 
 (bootlaces! +version+)
 
