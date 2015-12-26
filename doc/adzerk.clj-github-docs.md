@@ -1,6 +1,6 @@
 # adzerk.clj-github-docs
 
-This is a test!
+Generate API docs for Clojure namespaces to include in GitHub repos.
 
 [`generate-docs`](#generate-docs) [`ns-docs`](#ns-docs) [`section`](#section) [`write-docs`](#write-docs)
 
